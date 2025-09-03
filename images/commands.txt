@@ -1,0 +1,5 @@
+aws sns publish --topic-arn "arn:aws:cloudformation:eu-west-1:460232559794:stack/EDAStack/9f42e3e0-888e-11f0-a3ed-0254fb7f0553" --message-attributes file://attributeCaption.json --message file://image11.jpeg
+
+aws s3 cp ./images/ShouldFail.txt  s3://edastack-images9bf4dcd5-xexet6s98rh8/fail3.txt
+
+aws s3 cp ./images/sunflower.jpeg  s3://edastack-images9bf4dcd5-xexet6s98rh8/image11.jpeg
